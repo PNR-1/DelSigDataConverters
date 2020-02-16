@@ -47,3 +47,4 @@ plot(F,S);
 xlabel('Frequency');
 ylabel('dBV');
 title('FFT');
+grid on;
