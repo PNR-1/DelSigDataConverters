@@ -52,7 +52,7 @@ for i = 2:length(v)
 end
 
 v = lowpass(v,F_tone*2,Fs);
-v= v(1:Fs/(16*2*F_tone):end)
+v= v(1:Fs/(16*2*F_tone):end);
 Fs = 32*F_tone;
 %% %%%%%%%%%%%%%%%%%%%%%%%%%
 
